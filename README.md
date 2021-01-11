@@ -97,13 +97,13 @@ Special note: there are (many terrifying) categories that are worse than quadrat
 ### Identifying the time complexities of some common operations
 Note that for these, you should start by defining what's the variable workload (ie what does n represent) in each situation.
 
-1. Watering the plants in a garden (by hand, with a can)
-1. Watering the plants in a garden (with a dripline irrigation system)
-1. Folding a piece of paper in half repeatedly until it reaches the size of a credit card
-1. Matching socks into pairs after they come out of the dryer
-1. Opening a book to a specific page
-1. Finding a specific card in a shuffled deck of cards
-1. Finding a specific card in a sorted deck of cards (provided that you have a good definition of "sorted")
+1. Watering the plants in a garden (by hand, with a can) LINEAR
+1. Watering the plants in a garden (with a dripline irrigation system) CONSTANT
+1. Folding a piece of paper in half repeatedly until it reaches the size of a credit card LOGARITHMIC
+1. Matching socks into pairs after they come out of the dryer QUADRATIC
+1. Opening a book to a specific page CONSTANT
+1. Finding a specific card in a shuffled deck of cards LINEAR
+1. Finding a specific card in a sorted deck of cards (provided that you have a good definition of "sorted") CONSTANT
 
 ### twoSum
 This is a classic problem that tests your ability to itentify the time complexity of algorithms, and decide which implementation is better based on your assessment.
